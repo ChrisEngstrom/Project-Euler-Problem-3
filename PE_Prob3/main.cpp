@@ -44,7 +44,7 @@ int main() {
             found = checkForPrime(divisor);
         }
         
-        divisor--;		// Decrement the possible prime factor for the next run
+        divisor--;      // Decrement the possible prime factor for the next run
 
     } while ( divisor > 1 && !found );      // Continue as long as the divisor is greater than one,
                                             //  and we haven't found the largest prime factor
